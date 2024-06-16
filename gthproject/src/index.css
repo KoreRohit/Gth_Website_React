@@ -1,0 +1,113 @@
+.nav ul li a{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    transition-property: background-color,border-radius;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.nav ul li a:hover{
+    background-color: lightsalmon;
+    border-radius: 20px;
+}
+.contents{
+    height: 200px;
+    justify-content: center;
+    justify-content: space-between;
+}
+h1,h3{
+    justify-content: center;
+    align-items: center ;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading h1{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-item .text{
+    margin-bottom: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.text1{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text1 h4,p{
+    margin-top: 55px;
+}
+.platfeature{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800px;
+    /* color: red;    */
+}
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800px;
+}
+.a{
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    box-shadow: 10px 10px 10px 0.5px gray;
+    transition-property: background-color,border-radius;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.a:hover{
+    box-shadow: 10px 10px 10px 0.5 gray;
+    background-color: crimson;
+    border-radius: 20px;
+}
+.links a{
+    text-decoration: none;
+}
+.about{
+    background-color: lightgrey;
+    box-shadow: 2px 2px 2px 0.8px orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content{
+    transition-property:box-shadow,background-color,border-radius;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    /* background-color: goldenrod; */
+}
+.content:hover{
+    background-color: orange;
+    box-shadow: 2px 2px 2px 0.5px gray;
+}
+.features{
+    transition-property:box-shadow,background-color,color,border-radius;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in;
+}
+.features:hover{
+    box-shadow: 2px 2px 2px 0.5px gray;
+    background-color:rgb(230, 75, 55);
+    border-radius: 20px;
+    color: white;
+}
+.main_content{
+    
+    border-radius: 10px;
+    transition-property:box-shadow,background-color,border-radius;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in;
+}
+.main_content:hover{
+    background-color: bisque;
+    box-shadow: 5px 5px 5px 0.5px gray;
+    /* border: 2px solid gray; */
+}
+
+  
